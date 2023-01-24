@@ -37,7 +37,6 @@ public class StartFrame {
 //        CoursesIO.courseReader(2,"stageTWO");
 //        CoursesIO.courseReader(3,"stageTHREE");
 //        CoursesIO.courseReader(4,"stageFOUR");
-
         start();
 
     }
