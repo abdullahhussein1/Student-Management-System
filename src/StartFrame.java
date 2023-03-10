@@ -5,26 +5,26 @@ import java.awt.event.FocusEvent;
 
 public class StartFrame {
 
-    static ImageIcon logo = new ImageIcon("report.png");
-    static ImageIcon student = new ImageIcon("student4.png");
-    static ImageIcon student1 = new ImageIcon("student44.png");
-    static ImageIcon studentLight = new ImageIcon("student09.png");
-    static ImageIcon studentLight1 = new ImageIcon("student9.png");
-    static ImageIcon stages = new ImageIcon("scientific.png");
-    static ImageIcon stages1 = new ImageIcon("scientific2.png");
-    static ImageIcon stagesLight = new ImageIcon("stagesLight3.png");
-    static ImageIcon stagesLight1 = new ImageIcon("stagesLight4.png");
-    static ImageIcon lightMode0 = new ImageIcon("lightMode0.png");
-    static ImageIcon lightMode1 = new ImageIcon("lightMode1.png");
-    static ImageIcon darkMode1 = new ImageIcon("darkMode2.png");
-    static ImageIcon darkMode2 = new ImageIcon("darkMode1.png");
-    static ImageIcon homeButton = new ImageIcon("home.png");
-    static ImageIcon homeLight = new ImageIcon("home1.png");
+    static ImageIcon logo = new ImageIcon("assets/images/report.png");
+    static ImageIcon student = new ImageIcon("assets/images/student4.png");
+    static ImageIcon student1 = new ImageIcon("assets/images/student44.png");
+    static ImageIcon studentLight = new ImageIcon("assets/images/student09.png");
+    static ImageIcon studentLight1 = new ImageIcon("assets/images/student9.png");
+    static ImageIcon stages = new ImageIcon("assets/images/scientific.png");
+    static ImageIcon stages1 = new ImageIcon("assets/images/scientific2.png");
+    static ImageIcon stagesLight = new ImageIcon("assets/images/stagesLight3.png");
+    static ImageIcon stagesLight1 = new ImageIcon("assets/images/stagesLight4.png");
+    static ImageIcon lightMode0 = new ImageIcon("assets/images/lightMode0.png");
+    static ImageIcon lightMode1 = new ImageIcon("assets/images/lightMode1.png");
+    static ImageIcon darkMode1 = new ImageIcon("assets/images/darkMode2.png");
+    static ImageIcon darkMode2 = new ImageIcon("assets/images/darkMode1.png");
+    static ImageIcon homeButton = new ImageIcon("assets/images/home.png");
+    static ImageIcon homeLight = new ImageIcon("assets/images/home1.png");
 
     static JButton studentBtn, stagesBtn, modeBtn;
     static JPanel panel, studentBtnPanel, stagesBtnPanel, panel5;
     static JButton homeBtn = new JButton(homeButton);
-    static JLabel title = new JLabel("ISE Student Management");
+    static JLabel title = new JLabel("Student Management System");
     static StagesGUI stagesGUI = new StagesGUI();
     static StudentsGUI studentsGUI = new StudentsGUI();
 
@@ -370,11 +370,11 @@ public class StartFrame {
         });
 
         title.setFont(new Font("Verdana", Font.PLAIN, 24));
-        title.setBounds(440,9,350,50);
+        title.setBounds(430,9,450,50);
         title.setVerticalTextPosition(JLabel.BOTTOM);
         title.setForeground(Color.white);
 
-        frame.setTitle("ISE Student Management System");
+        frame.setTitle("Student Management System");
         frame.setSize(1200,800);
         frame.setResizable(false);
         frame.setLayout(null);
