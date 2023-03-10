@@ -11,12 +11,12 @@ import java.util.ArrayList;
 
 public class StudentsGUI{
 
-    ImageIcon search = new ImageIcon("search0.png");
-    ImageIcon searchLight = new ImageIcon("search.png");
-    static ImageIcon disable = new ImageIcon("disableRadio.png");
-    static ImageIcon enable = new ImageIcon("enableRadio.png");
-    ImageIcon disableBlack = new ImageIcon("disableRadioLight.png");
-    ImageIcon enableBlack = new ImageIcon("enableRadioLight.png");
+    ImageIcon search = new ImageIcon("assets/images/search0.png");
+    ImageIcon searchLight = new ImageIcon("assets/images/search.png");
+    static ImageIcon disable = new ImageIcon("assets/images/disableRadio.png");
+    static ImageIcon enable = new ImageIcon("assets/images/enableRadio.png");
+    ImageIcon disableBlack = new ImageIcon("assets/images/disableRadioLight.png");
+    ImageIcon enableBlack = new ImageIcon("assets/images/enableRadioLight.png");
 
     static String[] columns = {"ID","Full name","Gender","Age","Mobile","Stage","Address"};
 
