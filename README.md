@@ -4,6 +4,12 @@ This is my <strong>first GUI project</strong> in my programming career using jav
 # Goal
 collection,classifing  and organizing student information to control and analyzing informations much easier
 
+# User Interface(Light Mode)
+![alt text](https://github.com/abdullahhussein1/Student-Management-System/blob/master/assets/images/lightModeGUI.png)
+
+# User Interface(Dark Mode)
+![alt text](https://github.com/abdullahhussein1/Student-Management-System/blob/master/assets/images/darkModeGUI.png)
+
 # part 1 - STUDENTS
 <ol>
  <li>Adding students</li>
